@@ -144,7 +144,7 @@ public class 반복문 {
 	}
 	System.out.println("종료");*/
 		
-		//문제12
+		/*문제12
 		int sum=0;
 		Scanner s=new Scanner(System.in);	
 		System.out.println("두 수 사이의 값을 구합니다.");
@@ -161,7 +161,7 @@ public class 반복문 {
 		for(int i=a;i<=b;i++) {
 			sum=sum+i;
 		}
-		System.out.println("총 합은"+sum+"입니다");
+		System.out.println("총 합은"+sum+"입니다");*/
 		
 		
 		
