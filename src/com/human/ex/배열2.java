@@ -42,7 +42,24 @@ public class 배열2 {
 		System.out.println(arr1[1].age);//20
 		System.out.println(arr2[1].age);//20
 		System.out.println(arr3[1].age);//20
+		//arr1과 arr3이 다른값을 가질수있게 해보자
+	/*arr3[0]=new Human();
+	arr3[0].name=arr1[0].name;
+	arr3[0].age=arr3[0].age;
+	arr3[0].height=arr3[0].height;
 	
-	}
+	arr3[1]=new Human();
+	arr3[1].name=arr1[1].name;
+	arr3[1].age=arr3[1].age;
+	arr3[1].height=arr3[1].height;*/
+		for(int i=0;i<arr1.length;i++) {
+		arr3[i]=new Human();
+		arr3[i].name=arr1[i].name;
+		arr3[i].age=arr3[i].age;
+		arr3[i].height=arr3[i].height;
 
+	}
+        arr3[1].age=99;
+        //arr1[1].age arr3[1].age는 다른값을 가지게된다.
+}
 }
